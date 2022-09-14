@@ -53,7 +53,7 @@ conda activate ld_env
 git clone https://github.com/katiana22/latent-deeponet.git
 ```
 
-**3.** Install dependencies via the following commands: 
+**3.** Install dependencies via ```pip''' with the following commands: 
 
 ```
 cd latent-deeponet 
