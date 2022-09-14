@@ -17,9 +17,11 @@ Details of the methdology can be found in the published paper here.
 
 Below, a **graphical summary** of the method is provided:
 
-<!---
-<img src="pipeline.png" width="700">
+<p align="center">
+    <img width="800" src="schematic.png" alt="Latent DeepONet method">
+</p>
 
+<!---
 ## Application
 
 Three illustrative examples are provided. The first considers a dielectric cylinder suspended in a homogeneous electric field. The second is the classic Lotka-Volterra dynamical system modeling the evolution of two species interacting with each other, one a predator and one a prey. Finally, the third example considers a system of advection-diffusion-reaction equations which models a first-order chemical reaction between two species. 
