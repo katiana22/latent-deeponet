@@ -4,6 +4,7 @@
 * [Examples](#examples)
 * [Contents](#contents)
 * [Getting started](#getting-started)
+* [Demonstration](#demonstration)
 
 ## General info
 
@@ -67,6 +68,8 @@ Install the entire conda environment:
 ```
 conda env create -f environment.yml
 ```
+
+## Demonstration
 
 ## Citation
 
