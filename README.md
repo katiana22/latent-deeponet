@@ -60,6 +60,14 @@ cd latent-deeponet
 pip install -r requirements.txt
 ``` 
 
+or  
+
+Install the entire conda environment:
+
+```
+conda env create -f environment.yml
+```
+
 ## Citation
 
 ### Mainteners
