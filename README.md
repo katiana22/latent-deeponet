@@ -69,9 +69,9 @@ Install the entire conda environment:
 conda env create -f environment.yml
 ```
 
-## Demonstration
+## Demonstration  
 
-## Citation
+## Citation  
 
 ### Mainteners
 [Katiana Kontolati](https://katiana22.github.io/)
