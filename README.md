@@ -56,8 +56,8 @@ Three illustrative examples are provided. The first considers a dielectric cylin
 
 **1.** Create an Anaconda Python 3.8 virtual environment:
 ```
-conda create -n ld_env python==3.8.13  
-conda activate ld_env
+conda create -n latent_don python==3.8.13  
+conda activate latent_don
 ```
 
 **2.** Clone our repo:
