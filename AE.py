@@ -603,8 +603,8 @@ if args.method == 'vanilla-AE' or args.method == 'MLAE' or args.method == 'CAE':
     print('Autoencoder training is completed.')
 
     plt.figure(figsize=(4,3))
-    plt.plot(history.history['loss'])
-    plt.plot(history.history['val_loss'])
+    plt.plot(history.history['loss'], linewidth=2)
+    plt.plot(history.history['val_loss'], linewidth=2)
     plt.title('Autoencoder loss')
     plt.ylabel('MSE')
     plt.xlabel('epoch')
@@ -666,8 +666,8 @@ elif args.method == 'WAE':
     print('Autoencoder training is completed.')
 
     plt.figure(figsize=(4,3))
-    plt.plot(history_loss_train)
-    plt.plot(history_loss_test)
+    plt.plot(history_loss_train, linewidth=2)
+    plt.plot(history_loss_test, linewidth=2)
     plt.title('Autoencoder loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
@@ -678,7 +678,7 @@ elif args.method == 'WAE':
     plt.savefig(plotdir + 'History_both_' + str(args.method) + '_seed_' + str(seed_value) + '.png', dpi=300)
  
     plt.figure(figsize=(4,3))
-    plt.plot(history_loss_test)
+    plt.plot(history_loss_test, linewidth=2)
     plt.title('model loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
