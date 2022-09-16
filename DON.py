@@ -23,7 +23,7 @@ from scipy.interpolate import interp1d
 import numpy as np
 from matplotlib import pylab as plt
 import argparse
-import os, sys
+import os, sys, time
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # supress warnings
 
 #### Parser
