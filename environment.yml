@@ -1,4 +1,4 @@
-name: latent_deeponet
+name: latent_don
 channels:
   - conda-forge
   - defaults
