@@ -1,0 +1,10 @@
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow==2.4.0
+tf-nightly
+keras==2.4.3
+torch==1.9.0
+tqdm
+pandas
