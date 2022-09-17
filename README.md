@@ -47,7 +47,7 @@ Three illustrative examples are provided. The first considers a dielectric cylin
 
 * ```plot.py``` - Generates plots with comparative results for all methods and latent dimensions
 
-* ```main.ipynb``` - Demonstrates how to generate results for multiple methods and latent dimensions
+* ```main.py``` - Demonstrates how to generate results for multiple methods and latent dimensions
 
 * ```driver.sh``` - Demonstrates how to run the scripts on the terminal
 
