@@ -100,7 +100,7 @@ np.random.seed(seed_value)
 #K.set_session(sess)
 
 #### Load data
-file = np.load('../../data/Brusselator_data_KLE_lx_0.35_ly_0.2_v_0.15.npz') 
+file = np.load('./Data/Brusselator_data_KLE_lx_0.35_ly_0.2_v_0.15.npz') 
 nx, ny, nt = 28, 28, 10
 n = 800 # all data
 inputs, outputs, n_samples = file['inputs'][:n,:], np.array((file['outputs']))[:n,:], file['n_samples']
@@ -111,7 +111,7 @@ x_y_data = np.concatenate((inputs, outputs_re), axis=0) # concatenate inputs and
 
 if args.ood == 1:
     # OOD data
-    file2 = np.load('../../data/Brusselator_data_KLE_lx_0.45_ly_0.4_v_0.15.npz') # OOD
+    file2 = np.load('./Data/Brusselator_data_KLE_lx_0.45_ly_0.4_v_0.15.npz') # OOD
     n_samples_ood, num_ood = file2['n_samples'], 50
     inputs_ood, outputs_ood = file2['inputs'].reshape(n_samples_ood, nx*ny)[:num_ood,:], np.array((file2['outputs'])).reshape(n_samples_ood, nt, nx, ny)[:num_ood,:,:,:]
     outputs_ood_re = outputs_ood.reshape(num_ood*nt, nx*ny)
