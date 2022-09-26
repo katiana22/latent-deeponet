@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 #get_ipython().run_line_magic('matplotlib', 'inline')
 import tensorflow as tf
 #tf.get_logger().setLevel('WARNING')
-#import tensorflow.compat.v1 as tf
+import tensorflow.compat.v1 as tf
 #tf.disable_v2_behavior()
 import random
 from keras import backend as K
@@ -572,7 +572,9 @@ elif args.method == 'WAE':
                 #kl_div
                 #cross_entropy
                 #mse_loss
-                BCE = nn.functional.binary_cross_entropy(
+                #binary_cross_entropy
+                #binary_cross_entropy_with_logits
+                BCE = nn.functional.binary_cross_entropy_with_logits(
                     x_hat.view(-1, nx*ny), 
                     images.view(-1, nx*ny), 
                     reduce=False

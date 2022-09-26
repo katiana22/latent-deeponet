@@ -2,6 +2,7 @@
 # Last update: Sept. 12, 2022
 # Important: Make sure to: $conda activate latent_deeponet before running this script!!
 
+
 import random
 import tensorflow as tf
 import keras
@@ -363,7 +364,7 @@ def main():
             
         if i%1 == 0:
 
-            don_model.save_weights(Par['address'] + "/model_"+str(i))
+            #don_model.save_weights(Par['address'] + "/model_"+str(i))
             train_loss = loss.numpy()
             y_hat = don_model(X_func_test, X_loc_test)
             val_loss = np.mean( (y_hat - y_test)**2 )
@@ -375,6 +376,9 @@ def main():
             don_model.index_list.append(i)
             don_model.train_loss_list.append(train_loss)
             don_model.val_loss_list.append(val_loss)
+
+        if i == n_epochs:
+            don_model.save_weights(Par['address'] + "/model_"+str(i)) # save last model
 
     # Compute relative L2 error between reference and prediction
     pred = tf.reshape(y_hat, [num_test, nt*args.latent_dim])
@@ -408,7 +412,8 @@ def main():
         
         # Load best DeepONet model
         don_model = DeepONet_Model(Par)
-        don_model_number = index_list[np.argmin(val_loss_list)]
+        #don_model_number = index_list[np.argmin(val_loss_list)]
+        don_model_number = n_epochs
         np.save(Par['address'] + 'best_don_model_number', don_model_number)
         don_model_address = Par['address'] + "/model_"+str(don_model_number)
         don_model.load_weights(don_model_address)
