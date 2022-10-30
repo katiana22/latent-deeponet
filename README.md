@@ -16,9 +16,8 @@ The code has the following capabilities:
 * Compare the performance of latent DeepONet for different autoencoder models. The current version includes the following models:   
     1. **Autoencoder** (vanilla-AE)  
     2. **Multi-Layer Autoencoder** (MLAE)
-    3. **Convolutional Autoencoder** (CAE)  
-    4. **Variational Autoencoder** (VAE) and
-    5. **Wasserstein Autoencoder** (WAE)
+    3. **Convolutional Autoencoder** (CAE) and
+    4. **Wasserstein Autoencoder** (WAE)
 * Train latent DeepONet for different values of the latent dimension (*d*) and compare results with the standard DeepONet trained on the full-dimensional data.
 
 ## Methods-pipeline
