@@ -49,7 +49,7 @@ Three illustrative examples are provided. The first considers a material fractur
 
 * ```main.py``` - Demonstrates how to generate results for multiple methods and latent dimensions
 
-* ```generate-data.py``` - Code to generate the shallow-water equation data using the [Dedalus Project](https://dedalus-project.readthedocs.io/en/latest/index.html)
+* ```generate-data.py``` - Code to generate the shallow-water equation data using the [Dedalus Project](https://dedalus-project.readthedocs.io/en/latest/index.html).
 
 
 ## Getting started
