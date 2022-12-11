@@ -40,6 +40,8 @@ Three illustrative examples are provided. The first considers a material fractur
 
 ## Contents
 
+Each folder contains the following codes adjusted for each application:
+
 * ```AE.py``` - Contains all AE classes and code to train Autoencoders
 
 * ```DON.py``` - Containts all DON classes and code to train latent DeepONet
@@ -48,7 +50,7 @@ Three illustrative examples are provided. The first considers a material fractur
 
 * ```main.py``` - Demonstrates how to generate results for multiple methods and latent dimensions
 
-* ```generate-data.py``` - Code to generate the shallow-water equation data using the [Dedalus Project](https://dedalus-project.readthedocs.io/en/latest/index.html).
+```generate-data.py``` - Code to generate the shallow-water equation data using the [Dedalus Project](https://dedalus-project.readthedocs.io/en/latest/index.html).
 
 
 ## Getting started
