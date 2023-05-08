@@ -8,8 +8,8 @@
 
 ## General info
 
-This Git repository contains python codes for implementing the Latent DeepONet model proposed here:   
-Latent DeepONet leverages auroencoder models with the operator regressor DeepONet, to learn operators on latent spaces by leveraging the intrinsic dimensionality of physics-based data. 
+This Git repository contains python codes for implementing the Latent DeepONet model proposed here: https://arxiv.org/abs/2304.07599.
+Latent DeepONet employs auroencoder models with the operator regressor DeepONet, to learn operators in latent spaces by leveraging the intrinsic dimensionality of physics-based data. 
 
 The code has the following capabilities:  
 * Perform operator regression for PDE problems of very high dimensionality (e.g., high-dimensional time-dependent PDEs)
