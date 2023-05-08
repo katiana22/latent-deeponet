@@ -87,11 +87,11 @@ conda env create -f environment.yml
 To train an autoencoder model following by the training of L-DeepONet with the reduced data run the following on the terminal:
 
 ```
-python AE.py --method CAE --latent_dim 16 --n_samples 800 --n_epochs 1000  --ood 1 --noise 1   
-python DON.py --method CAE --latent_dim 16 --n_samples 800 --n_epochs 1000 --ood 1 --noise 1
+python AE.py --method MLAE --latent_dim 16 --n_samples 800 --n_epochs 1000  --ood 1 --noise 1   
+python DON.py --method MLAE --latent_dim 16 --n_samples 800 --n_epochs 1000 --ood 1 --noise 1
 ```
 
-In the example above, we chose to run L-DeepONet with a CAE, a latent dimensionality of 16, 800 in total train/test sampels and choose 1 for **ood** and **noise** which will generate results for out-of-distribution and noisy data.
+In the example above, we chose to run L-DeepONet with a MLAE, a latent dimensionality of 16, 800 in total train/test sampels and choose 1 for **ood** and **noise** which will generate results for out-of-distribution and noisy data.
 
 One can also use the script ```main.py``` to generate results for multiple methods (e.g., vanilla-AE, MLAE, CAE), latent dimensions (e.g., 16,25,81) and random seed numbers via the *reps* variable (e.g., run 5 times each with a loop) and generate comparative violin plots via the ```plot.py```. 
 
