@@ -1,3 +1,7 @@
+
+[![DOI](https://zenodo.org/badge/536661180.svg)](https://zenodo.org/doi/10.5281/zenodo.11130555)
+[![arXiv](http://img.shields.io/badge/arXiv-2204.09810-B31B1B.svg)](https://arxiv.org/abs/2304.07599)
+
 ## Table of contents
 * [General info](#general-info)
 * [Methods-pipeline](#methods-pipeline)
