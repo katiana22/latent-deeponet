@@ -5,8 +5,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Methods-pipeline](#methods-pipeline)
-* [Examples](#examples)
 * [Contents](#contents)
+* [Data availability](#data-availability)
 * [Getting started](#getting-started)
 * [Demonstration](#demonstration)
 
@@ -54,7 +54,12 @@ Each folder contains the following codes adjusted for each application:
 
 * ```main.py``` - Demonstrates how to generate results for multiple methods and latent dimensions
 
-```generate-data-shallow-water.py``` - Code to generate the shallow-water equation data using the [Dedalus Project v2](https://github.com/DedalusProject/dedalus).
+## Data availability
+
+
+To facilitate reproducibility and further research, we provide the full dataset used for the Rayleigh–Bénard convection problem, available via Zenodo (DOI: 10.5281/zenodo.15276384): https://zenodo.org/records/15276384.
+
+For the shallow water equations, we include a Python script ```generate-data-shallow-water.py```, that uses the Dedalus package to generate the dataset locally: [Dedalus Project v2](https://github.com/DedalusProject/dedalus).
 
 
 ## Getting started
