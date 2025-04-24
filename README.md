@@ -101,7 +101,18 @@ One can also use the script ```main.py``` to generate results for multiple metho
 
 
 ## Citation  
-
+```
+@article{kontolati2024learning,
+  title={Learning nonlinear operators in latent spaces for real-time predictions of complex dynamics in physical systems},
+  author={Kontolati, Katiana and Goswami, Somdatta and Em Karniadakis, George and Shields, Michael D},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={5101},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
 ### Mainteners
 [Katiana Kontolati](https://katiana22.github.io/)
 
