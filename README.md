@@ -54,7 +54,7 @@ Each folder contains the following codes adjusted for each application:
 
 * ```main.py``` - Demonstrates how to generate results for multiple methods and latent dimensions
 
-```generate-data.py``` - Code to generate the shallow-water equation data using the [Dedalus Project v2](https://github.com/DedalusProject/dedalus).
+```generate-data-shallow-water.py``` - Code to generate the shallow-water equation data using the [Dedalus Project v2](https://github.com/DedalusProject/dedalus).
 
 
 ## Getting started
