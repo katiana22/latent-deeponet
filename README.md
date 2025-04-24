@@ -56,11 +56,12 @@ Each folder contains the following codes adjusted for each application:
 
 ## Data availability
 
-
 To facilitate reproducibility and further research, we provide the full dataset used for the Rayleigh–Bénard convection problem, available via Zenodo (DOI: 10.5281/zenodo.15276384): https://zenodo.org/records/15276384.
 
-For the shallow water equations, we include a Python script ```generate-data-shallow-water.py```, that uses the Dedalus package to generate the dataset locally: [Dedalus Project v2](https://github.com/DedalusProject/dedalus).
+We include the following Python scripts for the shallow-water equations and the Rayleigh–Bénard convection problem that uses the Dedalus package to generate the datasets locally ([Dedalus Project v2](https://github.com/DedalusProject/dedalus)):
 
+- ```code/data/generate-data-shallow-water.py```
+- ```code/data/generate-data-rayleigh-benard.py```
 
 ## Getting started
 
